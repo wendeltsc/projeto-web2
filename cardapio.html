@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="stylescardapio.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <link rel="stylesheet" href="cabecalho-cardapio.css">
+      <nav class="navigation">
+        <a href="#" class="logo">Bi<span>st</span>rô<span>Ch</span>ef</a>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="#">Sobre</a></li>
+            <li class="nav-item"><a href="#">Faça seu pedido</a></li>
+            <i class='bx bx-cart'></i>
+        </ul>
+        <div class="menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    </header>
+    <main>
+      <div class="page-title">Seu Carrinho</div>
+      <div class="content">
+        <section>
+          <table>
+            <thead>
+              <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Total</th>
+                <th>-</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/salada de gorgonzola.jpg" alt="" />
+                    <div class="info">
+                      <div class="name">SALADE DE GORGONZOLA</div>
+                      <div class="category">ENTRADA</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 87,00</td>
+                <td>
+                  <div class="qty">
+                    <select class="qty" aria-label="Default select example">
+                      <option selected>Selecione a quantidade</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                    </select>
+                  </div>
+                </td>
+                <td>R$177,00</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/cocktail de crevettes.jpg" style="width: 27%;"/>
+                    <div class="info">
+                      <div class="name">COCKTAIL DE CREVETTES</div>
+                      <div class="category">ENTRADA</div>
+                    </div>
+                  </div>
+                </td>
+                <td> R$47,00</td>
+                <td>
+                  <div class="qty">
+                    <select class="qty" aria-label="Default select example">
+                      <option selected>Selecione a quantidade</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                    </select>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/COQUILLE DE CRABE.jpg" style="width: 27%;" />
+                    <div class="info">
+                      <div class="name">COQUILLE DE CRABE</div>
+                      <div class="category">ENTRADA</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <div class="qty">
+                    <select class="qty" aria-label="Default select example">
+                      <option selected>Selecione a quantidade</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                    </select>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/ARTICHAUD AU BEURRE CHAUD.jpg" alt="" />
+                    <div class="info">
+                      <div class="name">ARTICHAUD AU BEURRE CHAUD</div>
+                      <div class="category">ENTRADA</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <div class="qty">
+                    <select class="qty" aria-label="Default select example">
+                      <option selected>Selecione a quantidade</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                    </select>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+
+                            <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/CONFIT DE CANARD.jpg"  />
+                    <div class="info">
+                      <div class="name">CONFIT DE CANARD</div>
+                      <div class="category">PRATO PRINCIPAL</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <div class="qty">
+                    <select class="qty" aria-label="Default select example">
+                      <option selected>Selecione a quantidade</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                    </select>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/RISOTTO AU PARMESAN E BRIE.jpg" alt="" />
+                    <div class="info">
+                      <div class="name">RISOTTO AU PARMESAN E BRIE</div>
+                      <div class="category">PRATO PRINCIPAL</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <div class="qty">
+                    <select class="qty" aria-label="Default select example">
+                      <option selected>Selecione a quantidade</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                    </select>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/LANGOUSTE AUX FRUITS DE LA PASSION.jpg" alt="" />
+                    <div class="info">
+                      <div class="name">LANGOUSTE AUX FRUITS DE LA PASSION</div>
+                      <div class="category">PRATO PRINCIPAL</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <div class="qty">
+                    <select class="qty" aria-label="Default select example">
+                      <option selected>Selecione a quantidade</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                    </select>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/FILET PERSILLE.jpg" alt="" />
+                    <div class="info">
+                      <div class="name">FILET PERSILLE</div>
+                      <div class="category">PRATO PRINCIPAL</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <div class="qty">
+                    <select class="qty" aria-label="Default select example">
+                      <option selected>Selecione a quantidade</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                    </select>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+
+                            <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/Crème de papaye.jpg" alt="" />
+                    <div class="info">
+                      <div class="name">Crème de papaye</div>
+                      <div class="category">SOBREMESAS</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <div class="qty">
+                    <select class="qty" aria-label="Default select example">
+                      <option selected>Selecione a quantidade</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                    </select>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/FLOCONS DE LA NORVÈGE.jpg" alt="" />
+                    <div class="info">
+                      <div class="name"> FLOCONS DE LA NORVÈGE</div>
+                      <div class="category">SOBREMESAS</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <div class="qty">
+                    <select class="qty" aria-label="Default select example">
+                      <option selected>Selecione a quantidade</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                    </select>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/POIRE RICHELIEU.jpg" alt="" />
+                    <div class="info">
+                      <div class="name">POIRE RICHELIEU</div>
+                      <div class="category">SOBREMESAS</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <div class="qty">
+                    <select class="qty" aria-label="Default select example">
+                      <option selected>Selecione a quantidade</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                    </select>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/DUO SORVET VEGAN.jpg" alt="" />
+                    <div class="info">
+                      <div class="name">DUO SORVET VEGAN</div>
+                      <div class="category">SOBREMESAS</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <div class="qty">
+                    <select class="qty" aria-label="Default select example">
+                      <option selected>Selecione a quantidade</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                    </select>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+
+                <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/Suco de caju polpa.jpg" alt="" />
+                    <div class="info">
+                      <div class="name">Suco de caju polpa	350ml</div>
+                      <div class="category">BEBIDAS</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <div class="qty">
+                    <select class="qty" aria-label="Default select example">
+                      <option selected>Selecione a quantidade</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                    </select>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/Suco de maracuja polpa.jpg" alt="" />
+                    <div class="info">
+                      <div class="name">Suco de maracuja polpa 350ml</div>
+                      <div class="category">BEBIDAS</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <div class="qty">
+                    <select class="qty" aria-label="Default select example">
+                      <option selected>Selecione a quantidade</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                    </select>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/Bordeaux Signatures Rouge 2019.png" alt="" style="width: 21%;" />
+                    <div class="info">
+                      <div class="name">Bordeaux Signatures Rouge 2019
+                        750ml</div>
+                      <div class="category">VINHOS</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <div class="qty">
+                    <select class="qty" aria-label="Default select example">
+                      <option selected>Selecione a quantidade</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                    </select>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="img/Blanc de Blancs Comte d'Ormont Brut.webp" alt="" />
+                    <div class="info">
+                      <div class="name">Blanc de Blancs Comte d'Ormont Brut
+                        750ml </div>
+                      <div class="category">VINHOS</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <div class="qty">
+                    <select class="qty" aria-label="Default select example">
+                      <option selected>Selecione a quantidade</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                    </select>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+
+
+            </tbody>
+          </table>
+        </section>
+        <aside>
+          <div class="box">
+            <header>Resumo da compra</header>
+            <div class="info">
+              <div><span>Sub-total</span><span>R$ 418</span></div>
+              <div><span>Frete</span><span>Gratuito</span></div>
+              
+            </div>
+            <footer>
+              <span>Total</span>
+              <span>R$ 418</span>
+            </footer>
+          </div>
+          <button>Finalizar Compra</button>
+        </aside>
+      </div>
+    
+
+      
+
+
+    </main>
+    
+  </body>
+</html>
